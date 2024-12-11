@@ -1,4 +1,4 @@
-# HairMuse - Face Shape Classification for Hairstyle Recommendations 🤖 
+# HairMuse - Machine Learning 🤖 
 
 ## Overview
 HairMuseApp-ML is a machine learning project that recommends hairstyles based on face shape. The model uses **ResNet50**, a powerful deep learning architecture, to classify face shapes and provide suitable hairstyle recommendations for all genders.
