@@ -62,7 +62,7 @@ In the designated cell, upload your face image in `.jpg` or `.png` format. Ensur
 
 Follow the instructions in the notebook to run the prediction model. The model will process the image to give face shape based on face shape.
 
-### Sample Output
+### 4. Sample Output
 
 After running the prediction, you will see what kind of face shape you are as text. Below is an example of the output:
 
