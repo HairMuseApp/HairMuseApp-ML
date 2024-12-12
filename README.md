@@ -1,39 +1,48 @@
-# HairMuse - Machine Learning 🤖 
+# HairMuse 💇‍♀️🤖 Machine Learning Project
 
-## Overview
-HairMuseApp-ML is a machine learning project that recommends hairstyles based on face shape. The model uses **ResNet50**, a powerful deep learning architecture, to classify face shapes and provide suitable hairstyle recommendations for all genders.
-This is an image classification project designed to predict 
-the shape of a person’s face using Convolutional Neural Networks (CNN).
-We developed this as part of our Capstone Project for predicting the ideal hairstyle based on face shape. 
-The model has been built to classify the face shape of a user into one of several categories, helping them find the most flattering hairstyles. 
+## Project Overview
 
-## Model Overview
-For this project, by using a **Deep Learning** approach with **Convolutional Neural Networks (CNN)** to classify face shapes into one of the following categories:
+HairMuse is an innovative machine learning application designed to recommend personalized hairstyles based on individual face shapes. Leveraging the power of deep learning and computer vision, our project uses a **ResNet50** Convolutional Neural Network (CNN) to classify face shapes and provide tailored hairstyle recommendations across all genders.
+
+## Key Features
+
+- **Advanced Face Shape Detection**: Accurately identifies facial features to classify face shapes
+- **Deep Learning Powered**: Utilizes pre-trained ResNet architecture for precise image classification
+- **User-Friendly Interface**: Simply upload a photo to receive personalized hairstyle recommendations
+- **Multi-Shape Support**: Classifies faces into 5 distinct shape categories
+
+## Supported Face Shapes
+
 - Heart
 - Oblong
 - Oval
 - Round
 - Square
 
-## Features
-- **Face Shape Detection**: Detects key facial features to classify face shapes.
-- **ResNet Model**: Uses a pretrained ResNet model for image classification and hairstyle prediction.
-- **Easy-to-use Interface**: Upload an image, and the model will recommend the best hairstyle.
+## Technical Stack
 
-## Requirements
-1. **Python** version 3.8 or higher.
-2. **Jupyter Notebook** or **JupyterLab** installed.
-3. The required Python packages:
-   - `numpy`
-   - `pandas`
-   - `matplotlib`
-   - `seaborn`
-   - `termcolor`
-   - `scikit-learn`
-   - `pillow`
-   - `tensorflow`
+- **Language**: Python 3.8+
+- **Framework**: TensorFlow
+- **Model Architecture**: ResNet50
+- **Libraries**: 
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+  - Pillow
 
-## Installation
+## Prerequisites
+
+Before installation, ensure you have:
+- Python 3.8 or higher
+- Jupyter Notebook or JupyterLab
+- pip package manager
+
+## Setup and Running the Project
+
+### Local Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/HairMuseApp/HairMuseApp-ML.git
@@ -44,34 +53,55 @@ For this project, by using a **Deep Learning** approach with **Convolutional Neu
    cd HairMuseApp-ML
    ```
 
-## Usage
-### 1. Run the Notebook
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook HairMuseApp.ipynb
+   ```
 
-Open Jupyter Notebook or JupyterLab and run the `HairMuseApp.ipynb` file. Follow the steps outlined in the notebook to process data and predict face shapes.
+### Running on Google Colab
 
-To open the notebook, use the following command:
-```bash
-jupyter notebook HairMuseApp.ipynb
+1. Open Google Colab:
+   - Go to [Google Colab](https://colab.research.google.com/)
+   - Click on "File" > "New Notebook" or "Open Notebook"
+
+2. Clone the GitHub Repository:
+   ```python
+   !git clone https://github.com/HairMuseApp/HairMuseApp-ML.git
+   ```
+
+3. Change Directory:
+   ```python
+   %cd HairMuseApp-ML
+   ```
+
+4. Open the Notebook:
+   - In Colab, use "File" > "Open notebook" 
+   - Navigate to the cloned repository
+   - Open `HairMuseApp.ipynb`
+
+### Usage Guide
+
+1. Upload a front-facing image (`.jpg`, `.jpeg`, `.png`)
+
+2. Execute the prediction cells
+
+### Sample Output
+
+```
+🔍 Prediction: Oval 
+📊 Confidence: 44.12%
 ```
 
-### 2. Upload an Image
+## How It Works
 
-In the designated cell, upload your face image in `.jpg` or `.png` format. Ensure the image clearly shows the front-face.
+1. Image Upload: User submits a clear, front-facing photo
+2. Face Detection: CNN processes facial features
+3. Shape Classification: Determines face shape
+4. Recommendation: Suggests most flattering hairstyles
 
-### 3. Run the Prediction
+## Future Roadmap
 
-Follow the instructions in the notebook to run the prediction model. The model will process the image to give face shape based on face shape.
-
-### 4. Sample Output
-
-After running the prediction, you will see what kind of face shape you are as text. Below is an example of the output:
-
-- **Prediction**: "Oval"
-- **Confidence**: 44.12%
-
-## Contributing
-Feel free to fork the repository and submit pull requests. Contributions to improve the model, dataset, or add new features are welcome!
-
-
----
-
+- Enhance model accuracy
+- Expand hairstyle recommendation database
+- Develop mobile application
+- Implement real-time styling suggestions
