@@ -8,7 +8,7 @@ HairMuse is an innovative machine learning application designed to recommend per
 
 - **Advanced Face Shape Detection**: Accurately identifies facial features to classify face shapes
 - **Deep Learning Powered**: Utilizes pre-trained ResNet architecture for precise image classification
-- **User-Friendly Interface**: Simply upload a photo to receive personalized hairstyle recommendations
+- **User-Friendly Interface**: Simply upload a photo to receive faceshape detection
 - **Multi-Shape Support**: Classifies faces into 5 distinct shape categories
 
 ## Supported Face Shapes
